@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Nueva clase">
+  <ClassDiagramComponents>
+    <Class name="Circulo" package="" visibility="public" xPosition="314.0" yPosition="230.0">
+      <Fields>
+        <Field name="Radio" type="Float" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Punto" package="" visibility="public" xPosition="314.0" yPosition="23.0">
+      <Fields>
+        <Field name="CentroX" type="Float" visibility="private"/>
+        <Field name="CentroY" type="Float" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Cono" package="" visibility="public" xPosition="314.0" yPosition="417.0">
+      <Fields>
+        <Field name="Altura" type="Float" visibility="private"/>
+        <Field name="Color" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="ImprimirCono" returnType="Void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Cono" target="Circulo"/>
+    <IsRelation name="is" source="Circulo" target="Punto"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
